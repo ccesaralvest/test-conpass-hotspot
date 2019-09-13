@@ -1,0 +1,23 @@
+{
+  "name": "test-conpass-hotspot",
+  "version": "1.0.0",
+  "description": "Test compass",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ccesaralvest/test-conpass-hotspot.git"
+  },
+  "author": "Caio Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccesaralvest/test-conpass-hotspot/issues"
+  },
+  "homepage": "https://github.com/ccesaralvest/test-conpass-hotspot#readme",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
