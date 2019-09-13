@@ -4,7 +4,8 @@
   "description": "Test compass",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev-server": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/ccesaralvest/test-conpass-hotspot#readme",
   "devDependencies": {
     "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8"
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
   }
 }
