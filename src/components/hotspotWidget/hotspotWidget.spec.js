@@ -3,11 +3,11 @@ configure({adapter: new Adapter()});
 
 import { shallow, configure } from 'enzyme';
 import React from 'react';
-import Hotspot from './index';
+import HotspotWidget from './index';
 
-describe('Hotspot component', () => {
+describe('HotspotWidget component', () => {
     it('Should be render', () => {
-        const wrapper = shallow(<Hotspot />);
+        const wrapper = shallow(<HotspotWidget />);
         expect(wrapper.find('.hotspot').length).toBe(1);
     })
 });
