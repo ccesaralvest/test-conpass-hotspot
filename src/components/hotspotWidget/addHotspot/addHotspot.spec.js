@@ -3,11 +3,11 @@ configure({adapter: new Adapter()});
 
 import { shallow, configure } from 'enzyme';
 import React from 'react';
-import Footer from './index';
+import AddHotspot from './index';
 
-describe('Footer component', () => {
+describe('AddHotspot component', () => {
     it('Should be render', () => {
-        const wrapper = shallow(<Footer />);
-        expect(wrapper.find('footer').length).toBe(1);
+        const wrapper = shallow(<AddHotspot />);
+        expect(wrapper.find('.AddHotspot').length).toBe(1);
     })
 });
