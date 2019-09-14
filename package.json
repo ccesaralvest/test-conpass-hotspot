@@ -4,7 +4,7 @@
   "description": "Test compass",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "dev-server": "webpack-dev-server"
   },
   "repository": {
@@ -21,8 +21,12 @@
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.9.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
