@@ -7,8 +7,8 @@ import AddHotspot from './index';
 import findByTestAtrr from './../../../utils.js'
 
 describe('AddHotspot component', () => {
-    const setUp = (props = {}) => {
-        const component = shallow(<AddHotspot {...props} />);
+    const setUp = () => {
+        const component = shallow(<AddHotspot />);
         return component;
     };
     
