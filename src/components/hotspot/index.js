@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './components/header'
+import './style.scss';
 
 export default class Hotspot extends React.Component {
     render() {
         return (
-            <Header />
-        ) 
+            <p className='hotspot'>Hotspot</p>
+        );
     }
-};
+}

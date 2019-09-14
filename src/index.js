@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hotspot from './Hotspot'
+import App from './App'
 
-ReactDOM.render(<Hotspot />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
