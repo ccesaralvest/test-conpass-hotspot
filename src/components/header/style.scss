@@ -1,3 +1,33 @@
-footer {
-    color: blue;
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: solid #cfcfcf 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo-conpass {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navigation-menu {
+    margin-left: 20px;
+    .options-wrapper-menu {
+        display: flex;
+        padding: 0;
+        .option-item {
+            list-style-type: none;
+            margin-left: 15px;
+            a {
+                font-weight: 500;
+                font-size: 18px;
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: #afafaf;
+            }
+        }    
+    }
 }

@@ -1,8 +1,23 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+#app {
+    width: 100%;
+    display: flex;
+}
+    
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+}
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
 }
