@@ -1,0 +1,21 @@
+
+.addHotspot-wrapper {
+    width: 100%;
+    text-align: center;
+    .addHotspot {
+        background: #2FC3C8;
+        font-size: 20px;
+        font-weight: 100;
+        cursor: pointer;
+        color: white;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        border: none;
+        outline:none;
+    }
+}

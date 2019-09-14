@@ -1,10 +1,12 @@
 import React from 'react';
 import './style.scss';
 
-export default class AddHotspot extends React.Component {
-    render() {
-        return (
-            <p className='AddHotspot'>AddHotspot</p>
-        );
-    }
+const AddHotspot = () => {
+    return (
+        <div className='addHotspot-wrapper' >
+            <button data-test='addHotspot' className='addHotspot'>Create Hotspot</button>
+        </div>
+    );
 }
+
+export default AddHotspot;
