@@ -9,7 +9,7 @@ import findByTestAtrr from './../../utils.js'
 
 describe('Header component', () => {
     const setUp = (props = {}) => {
-        const component = shallow(<Header {...props} />);
+        const component = shallow(<Header />);
         return component;
     };
 
