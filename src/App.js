@@ -1,16 +1,17 @@
 import React from 'react';
 import Header from './components/header'
 import Footer from './components/footer'
-import Hotspot from './components/hotspot'
+import HotspotWidget from './components/hotspotWidget'
+import './styles.scss';
 
 export default class App extends React.Component {
     render() {
         return (
-            <>
+            <div className='container'>
                 <Header />
-                <Hotspot />
+                <HotspotWidget />
                 <Footer />
-            </>
+            </div>
         );
     }
 };
