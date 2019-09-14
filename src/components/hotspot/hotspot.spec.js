@@ -9,6 +9,6 @@ describe('Hotspot component', () => {
     it('Should be render', () => {
         const wrapper = shallow(<Hotspot />);    
 
-        expect(wrapper.find('hotspots').length).toBe(1);
+        expect(wrapper.find('.hotspot').length).toBe(1);
     })
 });
