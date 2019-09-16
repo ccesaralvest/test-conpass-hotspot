@@ -1,17 +1,21 @@
 import React from 'react';
-import Header from './components/header'
-import Footer from './components/footer'
-import HotspotWidget from './components/hotspotWidget'
-import 'normalize.css';
+import store from './store';
+import { Provider, useDispatch, useSelector } from 'react-redux';       
+
+import Header from './components/header';
+import HotspotWidget from './components/hotspotWidget';
+import 'normalize.css/normalize.css';
 import './styles.scss';
 
-export default class App extends React.Component {
-    render() {
-        return (
+const App = () => {
+    return (
+        <Provider store={store} >
             <div className='container'>
                 <Header />
                 <HotspotWidget />
             </div>
-        );
-    }
+        </Provider>
+    );
 };
+
+export default App;
